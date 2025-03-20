@@ -13,6 +13,6 @@ int main() {
         s2+=t2;
         s3+=t3;
     }
-    if(s1+s2+s3==0) cout<<"YES"<<endl;
+    if(s1==0&&s2==0&&s3==0) cout<<"YES"<<endl;
     else cout<<"NO"<<endl;
 }
